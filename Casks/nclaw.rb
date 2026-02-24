@@ -14,22 +14,22 @@ cask "nclaw" do
   on_macos do
     on_intel do
       url "https://github.com/nickalie/nclaw/releases/download/v#{version}/nclaw_#{version}_darwin_amd64.tar.gz"
-      sha256 "45011a58af6d86b329b0c23182e7667b56ebda71b0f13ba86533353aadfed251"
+      sha256 "835aaa85e291cc9ad4bc4eb561ed48c8656da5e27b01df42ac45530e29b35787"
     end
     on_arm do
       url "https://github.com/nickalie/nclaw/releases/download/v#{version}/nclaw_#{version}_darwin_arm64.tar.gz"
-      sha256 "9a64ce2bd42ecb1d732d46971f97d862f63072265ca03f994c1ed672f209687e"
+      sha256 "f6797543a4b9ff2cee24dfd296bbc7ca32745d98345e6a59db37adc3102084ae"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nickalie/nclaw/releases/download/v#{version}/nclaw_#{version}_linux_amd64.tar.gz"
-      sha256 "c7be08d78fbc7dbeb9b44390cb5eb9019cd001569402bcf6299c49db910fdf60"
+      sha256 "8dc59abedec3e2d623c3af2cd8d8772053c210670d35ac7e39a5d70abf36cfbd"
     end
     on_arm do
       url "https://github.com/nickalie/nclaw/releases/download/v#{version}/nclaw_#{version}_linux_arm64.tar.gz"
-      sha256 "61176b9e4739be9d46774c506c65ec46cf61887ce8d35baaf03548c22d8b8f26"
+      sha256 "95fd29080fd3193fe2ddfff831a0385e26a7f0d7b731df4faf8589795ea55103"
     end
   end
 
