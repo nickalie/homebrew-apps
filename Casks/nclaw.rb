@@ -3,7 +3,7 @@ cask "nclaw" do
   name "nclaw"
   desc "Lightweight, container-first AI assistant powered by Claude Code, accessible through Telegram"
   homepage "https://github.com/nickalie/nclaw"
-  version "0.15.0"
+  version "0.16.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "nclaw" do
   on_macos do
     on_intel do
       url "https://github.com/nickalie/nclaw/releases/download/v#{version}/nclaw_#{version}_darwin_amd64.tar.gz"
-      sha256 "213a18e6676935dee8c0385beab9273615a31a7bf4601fe55305d5b4556960d9"
+      sha256 "baea38214ee149495d971d0948ba8ba33757a937e8b64033330cd5c455fd3527"
     end
     on_arm do
       url "https://github.com/nickalie/nclaw/releases/download/v#{version}/nclaw_#{version}_darwin_arm64.tar.gz"
-      sha256 "74d1ef4e56839e53164b6e5c8061baf941b82d979465e39eee932bb507222094"
+      sha256 "2c2446741d11b068a7ce97847cfcfd9dd412f944f9f4ffb7bdd42997260fdc00"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nickalie/nclaw/releases/download/v#{version}/nclaw_#{version}_linux_amd64.tar.gz"
-      sha256 "9b38db38365d22bf244dd2e2f7a7c9b2244978995b1f8760455d652585c5b4d2"
+      sha256 "66668c04058eafed56fa9acdb9e5125e45289d1e83efede8a2c9f9485dd883d1"
     end
     on_arm do
       url "https://github.com/nickalie/nclaw/releases/download/v#{version}/nclaw_#{version}_linux_arm64.tar.gz"
-      sha256 "e64eaec98efeb8104e2ed3c777b553384d61114b6de95c68c84cc4049fc71d7d"
+      sha256 "0c412598eb0a390eb19f7d45307ea38ca608ce897ec075ccfe1d7a6d74eefc43"
     end
   end
 
